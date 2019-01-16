@@ -14,15 +14,6 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <style>
-      #textfield{
-      width:500px;
-      height:30px;
-      font-size:20px;
-      border: 1px solid greenyellow;
-   border-radius: 10px;
-      }
-    </style>
     <span class="js-logout">Logout</span>
     <div class = "container">
     <div class="project-tag"><h1>Project Apple</h1>
@@ -36,23 +27,27 @@
       <i class="fas fa-search-location fa-3x"></i>
     </div>
   </div>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList">
-    </ul>
+    
      <span class="js-weather"></span>
     </div>
-    <div class = "icon-content">
-      <i class="fas fa-truck"></i>
-      <i class="fas fa-apple-alt"></i>
-      <i class="fas fa-book-open"></i>
-    </div>
-    <script src="clock.js"></script>
-    <script src="greeting.js"></script>
-    <script src="todo.js"></script>
+    <section class = "icon-contents">
+      <div class ="back-circle">
+      <div class ="link-color"><i class="fas fa-link"></i> <span class = "back-text">  블록정보</span></div></div>
+      <div class ="back-circle">
+      <div class ="apple-color"><i class="fab fa-apple"></i><span class = "back-text">사과 레시피</span></div></div>
+      <div class ="back-circle">
+      <div class ="book-color"><i class="fas fa-book-open"></i><span class = "back-text">사과 이야기</span></div></div>
+      <div class ="back-circle">
+      <div class ="building-color"><i class="far fa-building"></i><span class = "back-text">팀 소개</span></div></div>
+    </section>
+
+    <!-- <div class = "icon-text">
+      <span class = "back-text">블록정보</span>
+      <span class = "back-text">사과 레시피</span>
+      <span class = "back-text">사과 이야기</span>
+      <span class = "back-text">팀 소개</span>
+    </div> -->
+    
     <script src="bg.js"></script>
-    <script src="weather.js"></script>
   </body>
 </html>
