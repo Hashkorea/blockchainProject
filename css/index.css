@@ -49,7 +49,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-
+  
 }
 
 .icon-space {
@@ -71,7 +71,7 @@ body {
 .icon-contents {
   padding: 70px 150px; /*top, right, bottom, left*/ 
   display: flex;
-  font-size: 45px;
+  font-size: 55px;
   align-items: flex-start;
   justify-content: space-between;
   padding-left: 500px;
@@ -86,7 +86,7 @@ body {
   cursor: pointer; 
   
   text-align:center;  /*가로정렬*/
-  line-height:75px;  /*세로 정렬*/ 
+  /* line-height:75px;  세로 정렬  */
 }
 
 .link-color {
@@ -109,15 +109,16 @@ body {
   display: flex;  
   font-size: 14px;
   background-color: white;
+  justify-content:center;
+  align-items: center;
   width:80px;
-  height:1px;
+  height:30px;
   border-radius:10px;
   cursor: pointer; 
-  
-  text-align:center;  /*가로정렬*/
-  line-height:40px;
-  padding-bottom:70px;
-  
+  margin-top:20px;
+  /* text-align:center;  
+  line-height:40px;  */
+  /*padding-bottom:10px;  */
 }
 
 @keyframes fadeIn {
