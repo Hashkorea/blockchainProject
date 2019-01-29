@@ -35,14 +35,32 @@ body {
     margin-top: 20px;
 }
 
+.car-enroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    
+}
+
+.enroll-box {
+    background-color: #615852;
+    color:white;
+    font-weight: bold;
+    font-size:20px;
+    height: 40px;
+    width: 100px;
+    
+}
+
 .car-content{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-around;
     height: 100vh;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top:200px;
+    /* margin-top:200px; */
 }
 
 .menu-bar {
@@ -70,7 +88,7 @@ body {
 
 .car-box {
     /* float: left; */
-    position: relative;
+    /* position: relative; */
     display: inline;
     background-color:white;
     margin: 20px;
